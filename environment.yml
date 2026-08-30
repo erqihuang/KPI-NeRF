@@ -1,0 +1,25 @@
+name: kpi-nerf
+channels:
+  # - pytorch
+  - open3d-admin
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - opencv
+  - pillow
+  - pyyaml
+  - pytorch
+  - torchvision
+  - tqdm
+  - imageio
+  - matplotlib
+  - tensorboard
+  - pip:
+    - imageio-ffmpeg
+    - lpips
+    - scikit-image
+    - open3d  # Only for 3d vis. Might require a physical monitor to install.
